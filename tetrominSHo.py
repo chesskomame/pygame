@@ -46,7 +46,7 @@ assert len(COLORS) == len(LIGHTCOLORS) # each color must have light color
 TEMPLATEWIDTH = 5
 TEMPLATEHEIGHT = 5
 
-# I changed size on some of the template
+# Changed size on some of the template
 S_SHAPE_TEMPLATE = [['.....',
                      '.....',
                      '..OOO',
@@ -108,11 +108,11 @@ J_SHAPE_TEMPLATE = [['.....',
                      '.....']]
 
 L_SHAPE_TEMPLATE = [['.....',
-                     '...O.',
+                     'O..O.',
                      'OOOO.',
                      '.....',
                      '.....'],
-                    ['..O..',
+                    ['..OO.',
                      '..O..',
                      '..O..',
                      '..OO.',
@@ -120,13 +120,13 @@ L_SHAPE_TEMPLATE = [['.....',
                     ['.....',
                      '.....',
                      '.OOOO',
-                     '.O...',
+                     '.O..O',
                      '.....'],
                     ['.....',
                      '.OO..',
                      '..O..',
                      '..O..',
-                     '..O..']]
+                     '.OO..']]
 
 T_SHAPE_TEMPLATE = [['.....',
                      '..O..',
